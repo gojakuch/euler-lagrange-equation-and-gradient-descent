@@ -23,7 +23,7 @@ If we minimize <img src="https://latex.codecogs.com/gif.latex?\epsilon&space;(x,
 7) <img src="https://latex.codecogs.com/gif.latex?l(x,&space;\vec{k})&space;=&space;\epsilon(x,\vec{k})&plus;\left&space;|&space;\frac{x-x_a}{x_b-x_a}(\hat{y}(x_b)-y_b)&space;\right&space;|&plus;\left&space;|&space;\frac{x_b-x&plus;x_a}{x_b-x_a}(\hat{y}(x_a)-y_a)&space;\right&space;|" title="l(x, \vec{k}) = \epsilon(x,\vec{k})+\left | \frac{x-x_a}{x_b-x_a}(\hat{y}(x_b)-y_b) \right |+\left | \frac{x_b-x+x_a}{x_b-x_a}(\hat{y}(x_a)-y_a) \right |" />\
 where we add two terms to the <img src="https://latex.codecogs.com/gif.latex?\epsilon" title="\epsilon(x, \overrightarrow{k})" /> so that our function is pinalized for not passing through points <img src="https://latex.codecogs.com/gif.latex?a" title="a" /> and <img src="https://latex.codecogs.com/gif.latex?b" title="b" />.
 So our initial problem is reduced to\
-8) <img src="https://latex.codecogs.com/gif.latex?\text{argmin}_{\vec{k}}[l(x,&space;\vec{k})]" title="\text{argmin}_{\vec{k}}[l(x, \vec{k})]" />
+8) <img src="https://latex.codecogs.com/gif.latex?\text{argmin}_{\vec{k}}[l(x,&space;\vec{k})]" title="\text{argmin}_{\vec{k}}[l(x, \vec{k})]" />\
 the solution of which we can approximate with gradient descent.
 ## Results
 To test the method, let us run it on the simplest possible <img src="https://latex.codecogs.com/gif.latex?F" title="F" />:\
